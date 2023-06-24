@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Aplicación Focos</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Control Foco</h1>
+            <div class="elemento">
+                <button type="button" id="btn0" class="btn btn-danger" onclick="foco(0)">
+                    <h4>Foco 1</h4>
+                </button>
+                <button type="button" id="btn1" class="btn btn-danger" onclick="foco(1)">
+                    <h4>Foco 2</h4>
+                </button>
+                <button type="button" id="btn2" class="btn btn-danger" onclick="foco(2)">
+                    <h4>Foco 3</h4>
+                </button>
+                <button type="button" id="btn3" class="btn btn-danger" onclick="foco(3)">
+                    <h4>Foco 4</h4>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
